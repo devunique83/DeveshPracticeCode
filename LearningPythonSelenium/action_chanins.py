@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 #added comment
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome() # to new driver object
 driver.get("https://www.facebook.com/")
 driver.maximize_window()
 ac = ActionChains(driver)
