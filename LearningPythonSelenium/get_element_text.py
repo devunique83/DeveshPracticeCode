@@ -21,4 +21,5 @@ if ele.is_selected(): #used for checkbox and radio button
     print("selected")
 else:
     print("not selected")
+print("script is passed.")    
 driver.quit()
